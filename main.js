@@ -22,3 +22,5 @@ gridSizeRange.addEventListener('click', function(e) {
     gridSizeOutputP.innerText = gridSizeRange.value + ' x ' + gridSizeRange.value;
     grid(gridSizeRange.value);
 });
+
+grid()
