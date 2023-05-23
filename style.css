@@ -4,18 +4,19 @@ body {
 .main-container {
     margin: 0 auto;
     background-color: red;
-    height: 500px;
-    width: 500px;
-    border-radius: 45px;
+    width: 750px;
+    height: 650px;
+    border-radius: 60px;
 }
 
 .main-header {
-    color: #f9da69;
-    font-size: 45px;
+    color: #f9d864;
+    font-size: 55px;
     font-style: italic;
     font-weight: bold;
     text-align: center;
-    padding: 25px;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 .grid-container {
@@ -23,8 +24,8 @@ body {
     grid-template-columns: repeat(var(--grid-rows), 1fr);
     grid-template-rows: repeat(var(--grid-cols), 1fr);
     margin: 0 auto;
-    width: 400px;
-    height: 280px;
+    width: 590px;
+    height: 405px;
     border: 5px solid antiquewhite;
     border-radius: 5px;
     background-color: #aaa;
@@ -40,19 +41,27 @@ body {
 }
 
 .knob {
-    margin-top: 15px;
-    margin-left: 50px;
-    margin-right: 45px;
-    margin-bottom: auto;
-    padding: 35px;
+    margin-top: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+    width: 95px;
+    height: 95px;
     border-radius: 50px;
-    box-shadow: -5px 5px #aaa;
-    background-color: antiquewhite;
+    border: none;
+    background-color: white;
+    color: #f3d04f;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.knob:hover {
+    box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24), 0px 17px 50px 0px rgba(0,0,0,0.19);
 }
 
 .size {
     text-align: center;
-    margin-top: 35px;
+    margin-top: 45px;
     color: #f9da69;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
@@ -60,17 +69,17 @@ body {
 
 #slider {
     -webkit-appearance: none;
-    width: 100%;
-    height: 10%;
+    width: 250px;
+    height: 10px;
     border-radius: 5px;
-    background: #f9da69;
+    background: #f9d864;
 }
 
 input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
     border: 1px solid antiquewhite;
-    height: 16px;
-    width: 16px;
+    height: 20px;
+    width: 20px;
     border-radius: 10px;
     background-color: antiquewhite;
     cursor: pointer;
@@ -78,5 +87,6 @@ input[type=range]::-webkit-slider-thumb {
 
 #output {
     margin-top: 5px;
+    font-size: 30px;
 }
 
