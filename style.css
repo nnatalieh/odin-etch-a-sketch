@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
     background-color: antiquewhite;
 }
@@ -12,7 +14,7 @@ body {
 .main-header {
     color: #f9d864;
     font-size: 55px;
-    font-style: italic;
+    font-family: 'Lobster';
     font-weight: bold;
     text-align: center;
     padding-top: 20px;
@@ -41,7 +43,7 @@ body {
 }
 
 .knob {
-    margin-top: 20px;
+    margin-top: 18px;
     margin-left: 75px;
     margin-right: 75px;
     width: 95px;
