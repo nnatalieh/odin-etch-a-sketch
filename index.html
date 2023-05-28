@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Assets/icon.png">
     <title>Etch-a-Sketch</title>
 </head>
 <body>
@@ -13,13 +14,20 @@
         <div class="grid-container">
             <!-- grid squares -->
         </div>
-        <div class="footer-container">
+        <div class="control-container">
             <button class="knob" id="reset">Reset</button>
             <div class="size">
                 <input type="range" min="1" max="100" value="16" id="slider">
                 <p id="output">16 x 16</p>
             </div>
             <button class="knob" id="change-color">Change Color</button>
+        </div>
+        <div class="footer">
+            <span>Made by:</span>
+            <a href="https://github.com/nnatalieh">
+                <span>Natalie Harris</span><img src="github-mark.png" alt="github logo">
+            </a>
+            <p>Copyright © <script>document.write(new Date().getFullYear())</script></p>
         </div>
         <script src="main.js"></script>
     </div>
